@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { BlogService } from './blog.service';
+import { BlogFetch } from './blog-fetch';
 
-describe('BlogService', () => {
-  let service: BlogService;
+describe('BlogFetch', () => {
+  let service: BlogFetch;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(BlogService);
+    service = TestBed.inject(BlogFetch);
   });
 
   it('should be created', () => {

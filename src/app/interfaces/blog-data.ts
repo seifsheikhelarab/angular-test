@@ -1,4 +1,4 @@
-export interface BlogInterface {
+export interface IBlog {
   category: string;
   title: string;
   date: string;

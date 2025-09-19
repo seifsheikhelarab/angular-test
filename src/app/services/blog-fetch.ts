@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class BlogService {
+export class BlogFetch {
   blogdata = [
     {
       "category": "Starter",
@@ -38,7 +38,7 @@ export class BlogService {
       "title": "Fresh Lemonade",
       "date": "Summer menu",
       "description": "Refreshing homemade lemonade with mint leaves.",
-      "image": "img/our-menu-05.jpg"
+      "image": "img/our-menu-06.jpg"
     }
   ]
   constructor() { }

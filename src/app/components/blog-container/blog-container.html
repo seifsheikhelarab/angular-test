@@ -1,0 +1,7 @@
+<div class="row mb-2">
+  @for( oneBlog of blogData; track $index ){
+  <div class="col-md-6">
+    <app-one-blog [blogInput]="oneBlog"></app-one-blog>
+  </div>
+  }
+</div>

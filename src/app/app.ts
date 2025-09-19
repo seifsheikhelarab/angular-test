@@ -1,11 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { Header } from './components/header/header.component';
-import { Footer } from './components/footer/footer.component';
-import { BlogContainerComponent } from './components/blog-container/blog-container.component';
-
+import { Header } from './components/header/header';
+import { Footer } from './components/footer/footer';
+import { BlogContainer } from './components/blog-container/blog-container';
 @Component({
   selector: 'app-root',
-  imports: [Header, Footer, BlogContainerComponent],
+  imports: [Header, Footer, BlogContainer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
